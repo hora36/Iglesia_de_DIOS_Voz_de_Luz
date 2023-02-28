@@ -37,6 +37,16 @@ body {
     background-size: cover;
 }
 
+a [href="https://zeno.fm/radio/voz-de-luz/"] {
+    color: #f8baad
+    padding: #f8baad 10px 20px;
+    border-top-right-radius:30px ;
+    border-bottom-right-radius: 30px;
+    border-left: 10px solid black;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
 .header-container__list {
     display: flex;
     height: 30px;
@@ -61,4 +71,21 @@ body {
 .header-container__list li a::after {
     content: "|";
 }
+
+.main-container__media {
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 39px;
+    width: 500px; 
+    height: 500px;
+}
+
+.main-container__devocionales {
+    background-color: orange;
+    margin: 30px;
+    padding: 39px;
+    width: 500px; 
+    height: 500px;
+}
+
 
