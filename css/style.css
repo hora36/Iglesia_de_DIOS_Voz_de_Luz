@@ -31,20 +31,19 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-image: url("./Assets/logo_iDDVDL-recortado.jpg");
+    background-image: url("../Assets/logo_iDDVDL-recortado.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-a [href="https://zeno.fm/radio/voz-de-luz/"] {
-    color: #f8baad
-    padding: #f8baad 10px 20px;
-    border-top-right-radius:30px ;
-    border-bottom-right-radius: 30px;
-    border-left: 10px solid black;
-    text-transform: uppercase;
-    text-decoration: none;
+.button {    
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: lightcoral;
+    border-radius: 5px;
     cursor: pointer;
 }
 .header-container__list {
@@ -91,4 +90,13 @@ a [href="https://zeno.fm/radio/voz-de-luz/"] {
     height: 500px;
 }
 
+/*esto lo tenia anteriormente para la emisora
+padding: #f8baad 10px 20px;
+border-top-right-radius:30px ;
+border-bottom-right-radius: 30px;
+border-left: 10px solid black;
+text-transform: uppercase;
+text-decoration: none;
+cursor: pointer;
+*/
 
