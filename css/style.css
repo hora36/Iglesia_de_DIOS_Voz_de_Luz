@@ -71,6 +71,7 @@ a [href="https://zeno.fm/radio/voz-de-luz/"] {
 .header-container__list li a::after {
     content: "|";
 }
+/*hacer los contenedores del main */
 
 .main-container__media {
     background-color: aquamarine;
@@ -78,6 +79,8 @@ a [href="https://zeno.fm/radio/voz-de-luz/"] {
     padding: 39px;
     width: 500px; 
     height: 500px;
+    font-size: 1.5rem;
+    
 }
 
 .main-container__devocionales {
